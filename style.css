@@ -161,14 +161,10 @@ body {
       padding: 2.1% 7.7%;
   }
 
-  .navbar-light .navbar-brand {  
+  .navbar-brand {  
     line-height: 1.68;
     text-align: left;
-    color: #35465d;
-  }
-
-  .navbar-light .navbar-toggler{
-      border-color: #ffffff;
+    color: #131212;
   }
 
   .section{
@@ -178,13 +174,13 @@ body {
   .title {
       line-height: 1.67;
       text-align: center;
-      color: #35465d;
+      color: #1f65c2;
   }
 
   .subtitle {
       line-height: 1.53;
       text-align: center;
-      color: #35465d;
+      color: #faab02;
   }
 
   @media screen and (max-width: 600px) {
