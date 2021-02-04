@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>AI 아이돌 그룹 닮은꼴 테스트</title>
+    <title>AI 아이돌 그룹상 테스트</title>
     <meta name="title" content="아이돌 그룹상 테스트 K-pop idol group like me">
     <meta name="subject"
         content="AI를 이용해 나와 닮은 아이돌 그룹을 찾아보세요! Run your picture and see which K-pop idol group you resemble the most!">
@@ -40,15 +40,28 @@
     </script>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-601b0672c16d1ba4"></script>
-    
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light nav-distance">
         <div class="container-fluid" style="justify-content: center;">
-            <a class="navbar-brand" href="https://kdolikeme.netlify.app"><img src="favicon-32x32.png">아이돌 그룹상 테스트 <br> K-pop idol group like me</a>
+            <a class="navbar-brand" href="https://kdolikeme.netlify.app"><img src="favicon-32x32.png">아이돌 그룹상 테스트 <br>
+                K-pop idol group like me</a>
         </div>
     </nav>
+    <div class="mt-2 container d-flex justify-content-center ad-banner">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-5cdbKKuOqOfp51Qp" data-ad-width="320"
+            data-ad-height="50"></ins>
+    </div>
+    <div class="mt-2 container d-flex justify-content-center ad-banner">
+        <ins class="kakao_ad_area" style="display:none;" 
+     data-ad-unit    = "DAN-JFoL52NmrbW9nWm4" 
+     data-ad-width   = "250" 
+     data-ad-height  = "250"></ins>
+    </div>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
     <section class="section">
         <h1 class="title">인공지능 아이돌 그룹상 테스트 <br> (K-pop idol group face-match test using AI)</h1>
         <br>
@@ -79,7 +92,7 @@
         <div class="image-upload-wrap">
             <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
             <div class="drag-text">
-                <img src="img/upload.svg" class="mt-5 upload" style="width: 20%;">
+                <img src="img/upload.svg" class="mt-5 pt-5 upload" style="width: 20%;">
                 <h3 class="mb-5 pb-5 pt-5 upload-text">드래그 or 클릭 <br> (Drag and drop a file or select add Image)</h3>
             </div>
         </div>
@@ -94,15 +107,30 @@
             <p class="result-message"></p>
             <div id="label-container"></div>
             <br>
-            
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox"></div>
+
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox"></div>
             <br>
             <div class="image-title-wrap">
                 <button type="button" onclick="pageReload()" class="remove-image">Retry / 재시도</span></button>
             </div>
         </div>
     </div>
+    <div class="mt-2 container d-flex justify-content-left ad-banner">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-SutaIJswWlAV70WE" data-ad-width="320"
+            data-ad-height="100"></ins>
+    </div>
+    <div class="mt-2 container d-flex justify-content-center ad-banner">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-uNQhfwJ2zLDSu38n" data-ad-width="728"
+            data-ad-height="90"></ins>        
+    </div>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <footer class="footer pt-5 container d-flex justify-content-center">
+        <div>
+            <p>&copy; Code D. Monkey 2021. All Rights Reserved. </p>
+        </div>
+    </footer>    
     <script>
         function pageReload() {
             window.location.reload();
