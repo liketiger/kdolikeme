@@ -28,16 +28,6 @@
         content="AI를 이용해 나와 닮은 아이돌 그룹상을 찾아보세요! Find out which K-pop idol group you look like!" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-145482737-6');
-    </script>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-601b0672c16d1ba4"></script>
 
@@ -55,10 +45,8 @@
             data-ad-height="50"></ins>
     </div>
     <div class="mt-2 container d-flex justify-content-center ad-banner">
-        <ins class="kakao_ad_area" style="display:none;" 
-     data-ad-unit    = "DAN-JFoL52NmrbW9nWm4" 
-     data-ad-width   = "250" 
-     data-ad-height  = "250"></ins>
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-JFoL52NmrbW9nWm4" data-ad-width="250"
+            data-ad-height="250"></ins>
     </div>
     <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
     <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
@@ -122,7 +110,7 @@
     </div>
     <div class="mt-2 container d-flex justify-content-center ad-banner">
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-uNQhfwJ2zLDSu38n" data-ad-width="728"
-            data-ad-height="90"></ins>        
+            data-ad-height="90"></ins>
     </div>
     <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
     <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
@@ -130,7 +118,7 @@
         <div>
             <p>&copy; Code D. Monkey 2021. All Rights Reserved. </p>
         </div>
-    </footer>    
+    </footer>
     <script>
         function pageReload() {
             window.location.reload();
@@ -251,76 +239,58 @@
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
             var resultTitle, resultExplain;
             if (document.getElementById("gender").checked) {
-                gtag('event', '아이돌 그룹상 테스트 수행', {
-                    'event_category': '아이돌 그룹상 테스트 수행',
-                    'event_label': '남자'
-                });
+                
+                
                 switch (prediction[0].className) {
                     case "BTS":
                         resultTitle = "BTS상"
                         resultExplain = "당신은 BTS상입니다 / You look like BTS"
-                        gtag('event', '남자 결과 BTS상', { 'event_category': '남자 결과' });
                         break;
                     case "EXO":
                         resultTitle = "EXO상"
                         resultExplain = "당신은 EXO상입니다 / You look like EXO"
-                        gtag('event', '남자 결과 EXO상', { 'event_category': '남자 결과' });
                         break;
                     case "TXT":
                         resultTitle = "투바투상"
                         resultExplain = "당신은 투바투상입니다 / You look like TXT"
-                        gtag('event', '남자 결과 TXT상', { 'event_category': '남자 결과' });
                         break;
                     case "NUEST":
                         resultTitle = "뉴이스트상"
                         resultExplain = "당신은 뉴이스트상입니다 / You look like NU'EST"
-                        gtag('event', "남자 결과 NUEST상", { 'event_category': '남자 결과' });
                         break;
                     case "GOT7":
                         resultTitle = "갓세븐상"
                         resultExplain = "당신은 갓세븐상입니다 / You look like GOT7"
-                        gtag('event', '남자 결과 GOT7상', { 'event_category': '남자 결과' });
                         break;
                     default:
                         resultTitle = "알수없음"
                         resultExplain = "해당하는 결과가 없습니다 / Unknown"
-                        gtag('event', '남자 결과 알수없음', { 'event_category': '남자 결과' });
                 }
             } else {
-                gtag('event', '아이돌 그룹상 테스트 수행', {
-                    'event_category': '아이돌 그룹상 테스트 수행',
-                    'event_label': '여자'
-                });
                 switch (prediction[0].className) {
                     case "TWICE":
                         resultTitle = "TWICE상"
                         resultExplain = "당신은 트와이스상입니다 / You look like TWICE"
-                        gtag('event', '여자 결과 TWICE상', { 'event_category': '여자 결과' });
                         break;
                     case "BLACKPINK":
                         resultTitle = "BLACKPINK상"
                         resultExplain = "당신은 블랙핑크상입니다 / You look like BLACKPINK"
-                        gtag('event', '여자 결과 BLACKPINK상', { 'event_category': '여자 결과' });
                         break;
                     case "GFRIEND":
                         resultTitle = "여자친구상"
                         resultExplain = "당신은 여자친구상입니다 / You look like GFRIEND"
-                        gtag('event', '여자 결과 GFRIEND상', { 'event_category': '여자 결과' });
                         break;
                     case "STAYC":
                         resultTitle = "STAYC상"
                         resultExplain = "당신은 STACY상입니다 / You look like STAYC"
-                        gtag('event', '여자 결과 STAYC상', { 'event_category': '여자 결과' });
                         break;
                     case "aespa":
                         resultTitle = "에스파상"
                         resultExplain = "당신은 에스파상입니다 / You look like aespa"
-                        gtag('event', '여자 결과 aespa상', { 'event_category': '여자 결과' });
                         break;
                     default:
                         resultTitle = "알수없음"
                         resultExplain = "해당하는 결과가 없습니다 / Unknown"
-                        gtag('event', '여자 결과 알수없음', { 'event_category': '여자 결과' });
                 }
             }
             var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
