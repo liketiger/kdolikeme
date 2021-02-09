@@ -197,11 +197,12 @@
         });
     </script>
     
+        
+    <script type="text/javascript">
         // More API functions here:
         // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
         // the link to your model provided by Teachable Machine export panel
-    <script type="text/javascript">
         let URL;
         const urlMale = "https://teachablemachine.withgoogle.com/models/yW7mS3947/";
         const urlFemale = "https://teachablemachine.withgoogle.com/models/ncdapETYk/";
@@ -265,6 +266,14 @@
                         resultTitle = "갓세븐상"
                         resultExplain = "당신은 갓세븐상입니다 / You look like GOT7"
                         break;
+                    case "BTOB":
+                        resultTitle = "비투비상"
+                        resultExplain = "당신은 비투비상입니다 / You look like BTOB"
+                        break;
+                    case "ASTRO":
+                        resultTitle = "아스트로상"
+                        resultExplain = "당신은 아스트로상입니다 / You look like ASTRO"
+                        break;
                     default:
                         resultTitle = "알수없음"
                         resultExplain = "해당하는 결과가 없습니다 / Unknown"
@@ -298,6 +307,7 @@
                     case "Lovelyz":
                         resultTitle = "러블리즈상"
                         resultExplain = "당신은 러블리즈상입니다. / You look like Lovelyz"
+                        break;
                 }
             }
             var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
@@ -349,6 +359,13 @@
                         break;
                     case "Lovelyz":
                         labelTitle = "Lovelyz"
+                        break;
+                    case "BTOB":
+                        labelTitle = "BTOB"
+                        break;
+                    case "ASTRO":
+                        labelTitle = "ASTRO"
+                        break;
                 }
                 var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + "</div>"
                 var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>"
