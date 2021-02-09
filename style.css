@@ -385,7 +385,26 @@ body {
   border-radius: 10px;
   background-color: #C2A6F0;
 }
-.unknown-box {
+
+.OMG-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(49, 132, 155, 0.2);
+}
+.OMG-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #e7d865;
+}
+
+.Lovelyz-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -394,7 +413,7 @@ body {
   width: 100%;
   background-color: rgba(235, 166, 190, 0.2);
 }
-.unknown-bar {
+.Lovelyz-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -402,6 +421,7 @@ body {
   border-radius: 10px;
   background-color: rgba(235, 166, 190, 1);
 }
+
 .percent-text {
   font-size: 1rem;
   color: #ffffff;
