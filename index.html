@@ -29,7 +29,8 @@
     <meta property="og:image" content="https://kdolikeme.netlify.app/ogimg.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
-    <script data-ad-client="ca-pub-3002260130410085" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="ca-pub-3002260130410085" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -59,11 +60,17 @@
         <h2 class="subtitle">나는 어떤 아이돌 그룹과 가장 닮았을까? <br> (Which K-pop idol group do you resemble the most?)</h2>
     </section>
     <section class="youtube">
-        <div class="container mt-5 youtube-cover d-flex flex-row-reverse"><a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg"
-                class="youtube-link">Helped by 조코딩 유튜브 채널</a><img src="img/youtube-copy.jpg" alt=""
-                class="youtube-icon"></div>
+        <div class="container mt-5 youtube-cover d-flex flex-row-reverse"><a
+                href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link">Helped by 조코딩 유튜브
+                채널</a><img src="img/youtube-copy.jpg" alt="" class="youtube-icon"></div>
         <div class="container mt-5 youtube-cover d-flex flex-row-reverse"><a href="https://mbtied.netlify.app"
                 class="youtube-link" style="color: orange;">-- 영단어 MBTI 테스트하기 --</a></div>
+        <div class="container mt-5 youtube-cover d-flex flex-row-reverse">
+            <a href="https://play.google.com/store/apps/details?id=com.liketiger.kdolikeme"><img
+                    class="app-download-icon"
+                    src="https://blog.kakaocdn.net/dn/c6po0N/btqMgsb7Qpb/MQBT1U1xzqvsabAQd4OYGk/img.png"
+                    alt="Google play store"></a>
+        </div>
     </section>
     <br>
     <h3 class="pb-2 d-flex justify-content-center">&nbsp&nbsp&nbsp&nbsp성별을 선택하세요 <br>(Choose your gender)</h3>
@@ -377,7 +384,7 @@
                     .className + "-box'></div><div class='d-flex justify-content-center align-items-center " +
                     prediction[i].className + "-bar' style='width: " + barWidth +
                     "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) *
-                    100) + "%</span></div></div>"
+                        100) + "%</span></div></div>"
                 labelContainer.childNodes[i].innerHTML = label + bar;
             }
         }

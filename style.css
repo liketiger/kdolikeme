@@ -613,3 +613,9 @@ input:checked + label > .knob > i:before {
   width: 320px;
   margin: 0 auto;
 }
+
+.app-download-icon{
+  width: 200px;
+  vertical-align: right;
+  border-style: none;
+}
