@@ -2,7 +2,7 @@
 자신과 닮은 아이돌 그룹상 테스트 서비스 <br><br>
 Find out which kpop idol group you resemble the most!<br><br>
 Tech stack - HTML5/CSS/JavaScript/Teachable Machine/React-Native Expo<br><br>
-Used Selenium to crwal idol images from google<br><br>
+Used Selenium to crawl idol images from google<br><br>
 Trained model through Teachable Machine and linked with website<br><br>
 Deployed website using Netlify<br><br>
 Used React-Native Expo to build an Android app and deployed on Google Playstore<br><br>
