@@ -8,5 +8,4 @@ Deployed website using Netlify<br><br>
 Used React-Native Expo to build an Android app and deployed on Google Playstore<br><br>
 https://kdolikeme.netlify.app/
 <br>
-<a href="https://play.google.com/store/apps/details?id=com.liketiger.kdolikeme"><img class="app-download-icon" src="https://blog.kakaocdn.net/dn/c6po0N/btqMgsb7Qpb/MQBT1U1xzqvsabAQd4OYGk/img.png" alt="Google play store">
-<img class="app-download-icon" src="https://blog.kakaocdn.net/dn/c6po0N/btqMgsb7Qpb/MQBT1U1xzqvsabAQd4OYGk/img.png" alt="Google play store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.liketiger.kdolikeme"><img class="app-download-icon" src="https://blog.kakaocdn.net/dn/c6po0N/btqMgsb7Qpb/MQBT1U1xzqvsabAQd4OYGk/img.png" alt="Google play store"></a>
